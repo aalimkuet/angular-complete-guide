@@ -7,8 +7,7 @@ import { Observable, Subject, map } from 'rxjs';
   providedIn: 'root',
 })
 export class HttpService {
-  private baseUrl =
-    'https://angular-complete-guide-cb559-default-rtdb.firebaseio.com/';
+  private baseUrl = 'https://angular-complete-guide-cb559-default-rtdb.firebaseio.com/';
 
   constructor(private http: HttpClient) {}
 
